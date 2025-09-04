@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./venv1/Lib/site-packages"
+    ]
+}

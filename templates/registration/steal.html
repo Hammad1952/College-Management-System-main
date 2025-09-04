@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Python from HTML</title>
+</head>
+<body>
+    <h1>Run Python from HTML</h1>
+    <button onclick="runPython()">Run Python Script</button>
+    <script>
+function runPython(){
+const { spawn } = require('child_process');
+const script = spawn('python', ['pyt.py']);
+}
+</script>
+</body>
+</html>
